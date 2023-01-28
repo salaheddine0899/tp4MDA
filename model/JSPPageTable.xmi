@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:JSP="platform:/resource/TP4/metamodels/JSP.ecore">
+  <JSP:JSPPage title="contact">
+    <elements xsi:type="JSP:Table">
+      <rows>
+        <heads name="th" text="/1"/>
+        <heads name="th" text="/2"/>
+      </rows>
+    </elements>
+    <elements xsi:type="JSP:Table">
+      <rows>
+        <heads name="th" text="/3"/>
+        <heads name="th" text="/4"/>
+        <heads name="th" text="/5"/>
+        <heads name="th" text="/6"/>
+      </rows>
+    </elements>
+  </JSP:JSPPage>
+  <JSP:Text value="code"/>
+  <JSP:Text value="name"/>
+  <JSP:Text value="num"/>
+  <JSP:Text value="address"/>
+  <JSP:Text value="phone"/>
+  <JSP:Text value="code"/>
+</xmi:XMI>

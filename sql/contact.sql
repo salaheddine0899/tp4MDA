@@ -7,15 +7,10 @@ GRANT CONNECT, RESOURCE TO commercial_admin;
 
  USE contact ; 
 
- CREATE TABLE Client( 
- code int PRIMARY KEY NOT NULL, 
-  name varchar(30),
- 
- );
  CREATE TABLE Contact( 
  num int PRIMARY KEY NOT NULL, 
-  address varchar(30),
+  name varchar(30),
+ address varchar(30),
  phone varchar(30),
- code int FOREIGN KEY REFERENCES Client(code), 
  
  );

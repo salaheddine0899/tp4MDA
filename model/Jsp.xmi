@@ -1,19 +1,5 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <JSP:JSPPage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:JSP="platform:/resource/TP4/metamodels/JSP.ecore" title="contact">
-  <elements xsi:type="JSP:Form" name="Client">
-    <attributes name="action" value="/addClient"/>
-    <attributes name="method" value="post"/>
-    <inputs name="input">
-      <attributes name="name" value="code"/>
-      <attributes name="type" value="number"/>
-      <attributes name="placeholder" value="code"/>
-    </inputs>
-    <inputs name="input">
-      <attributes name="name" value="name"/>
-      <attributes name="type" value="text"/>
-      <attributes name="placeholder" value="name"/>
-    </inputs>
-  </elements>
   <elements xsi:type="JSP:Form" name="Contact">
     <attributes name="action" value="/addContact"/>
     <attributes name="method" value="post"/>
@@ -21,6 +7,11 @@
       <attributes name="name" value="num"/>
       <attributes name="type" value="number"/>
       <attributes name="placeholder" value="num"/>
+    </inputs>
+    <inputs name="input">
+      <attributes name="name" value="name"/>
+      <attributes name="type" value="text"/>
+      <attributes name="placeholder" value="name"/>
     </inputs>
     <inputs name="input">
       <attributes name="name" value="address"/>
@@ -31,11 +22,6 @@
       <attributes name="name" value="phone"/>
       <attributes name="type" value="text"/>
       <attributes name="placeholder" value="phone"/>
-    </inputs>
-    <inputs name="input">
-      <attributes name="name" value="code"/>
-      <attributes name="type" value="number"/>
-      <attributes name="placeholder" value="code"/>
     </inputs>
   </elements>
 </JSP:JSPPage>
